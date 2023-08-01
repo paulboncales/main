@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website HTML CSS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/ggl.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+
+                    <script type="text/javascript"
+                    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+                </script>
+                <script type="text/javascript">
+                (function(){
+                emailjs.init("a8a1gGfTJ2CJeX3tM");
+                })();
+                </script>
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="navbar-container">
+        <a class="nav-logo">P&#9650;U L</a>
+            <ul class="nav-menu"> 
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#certificates">CERTIFICATES</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#stack">STACK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </div>
+    </div>
+</nav>
+
+<section id="home">    
+        <div class="main">
+            <div class="info">
+                <p>Hi, my name is</p>
+                <div class="typing-container">
+                    <h2></h2>
+                    <span class="blinking-cursor"></span>
+                </div>
+                <p>An aspiring <strong>Front end developer | IT specialist</strong></p>
+                <div class="btn">
+                    <button onclick="scrollToContact()">Send me a message</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/p1.jpg">
+            </div>
+        </div>
+</section>
+
+<section id="about">
+    <div class="header-for-b">
+        <h2>MY STORY</h2>
+        <p>Everything you need to know about me.</p>
+    </div>
+        <div class="about-me">
+            
+                <div class="vid">
+                    <video controls>
+                        <source src="video/jmc.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="about-info">
+                    <h4>My Journey</h4>
+                    <br>
+                    <p>Hi, I am <strong>Paul Boncales</strong> 23-years-old graduate of bachelor of science in information technology from the prestigious 
+                        Jose Maria College Foundation Inc., 
+                        where I honed my skills and knowledge in the dynamic field of Information Technology. 
+                        It was during my time at highschool that I discovered my true passion for all things tech-related.
+                
+                        The journey into the fascinating world of Information Technology began when a friend 
+                        introduced me to the wonders of coding and software development. I was instantly 
+                        captivated by the ability to create and innovate through technology, and that moment 
+                        marked the beginning of an incredible adventure.
+                        <br>
+                        <br>
+                        My love for front-end development knows no bounds. I find immense joy in crafting 
+                        visually stunning and user-friendly interfaces that bring joy and convenience to users' 
+                        lives. From HTML and CSS to JavaScript and beyond, I'm continually expanding my skills 
+                        to stay at the forefront of this rapidly evolving field.
+                        
+                        In addition to my technical expertise, I possess a keen eye for detail and a strong 
+                        commitment to delivering high-quality results. I believe in the power of teamwork and 
+                        collaborative efforts to achieve extraordinary outcomes.
+                        <br>
+                        <br>
+                        <h4>My hobbies</h4>
+                        <br>
+                        Outside of the tech realm, I enjoy exploring the great outdoors, capturing picturesque 
+                        landscapes through my camera lens, and indulging in creative writing. These activities
+                        provide the perfect balance to my passion for technology, inspiring me to approach every 
+                        project with a fresh and imaginative perspective.
+                        </p>    
+                </div>
+        </div>
+</section>
+
+<section id="certificates">
+    <div class="header-for-c">
+        <h2>MY CERTIFICATES</h2>
+        <p>Certicates that i have obtain so far.</p>
+    </div>
+            <div class="certificates-container">
+                <div class="wrapper">
+                    <img src="images/crt1.jpg" alt="">
+                    <hr>
+                    <h3>Huawei</h3>
+                    <p>Math Basic</p>
+                </div>
+                <div class="wrapper">
+                    <img src="images/crt2.jpg" alt="">
+                    <hr>
+                    <h3>Huawei</h3>
+                    <p>HCAI - AI COURSE</p>
+                </div>
+                <div class="wrapper">
+                    <img src="images/crt3.jpg" alt="">
+                    <hr>
+                    <h3>Huawei</h3>
+                    <p>Python Programming</p>
+                </div>
+                <div class="wrapper">
+                    <img src="images/ND.jpg" alt="">
+                    <hr>
+                    <h3>Bangkal Davao City</h3>
+                    <p>Neda Region XI</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                </div>
+                <div class="wrapper">
+                    <img src="images/cert.png" alt="">
+                    <hr>
+                    <h3>Jose Maria College Foudnation Inc.</h3>
+                    <p>Certificate of completion</p>
+                </div>
+            </div>
+</section>
+
+<section id="experience">       
+    <div class="header-for-e">
+        <h2>Frond End Development</h2>
+        <p>Portfolio | Youtube clone | Restaurant Design </p>
+    </div>
+            <div class="experience-container">
+                <div class="wrapper-for-e">
+                    
+                    <img src="images/p.png" alt="">
+                    <p>
+                        <em><a href="https://paulboncales.github.io/portfolio/#" target="_blank">My other portfolio</a></em> This is my other personal portfolio, a labor of love crafted with JavaScript, CSS, and HTML. Here, I present a glimpse of my creative journey and technical prowess through various web development projects, OJT and school backgrounds. 
+                        <br>
+                        <br>
+                        Each design showcases my dedication to delivering seamless user experiences and visually captivating interfaces. Using JavaScript, I've brought interactive elements to life, creating dynamic and engaging web pages that leave a lasting impression. 
+
+                    </p>
+                </div>
+                <div class="wrapper-for-e">
+                    <p>
+                    I made a YouTube clone, a project I developed using HTML, CSS, and JavaScript. This web application replicates the core functionalities of the popular video-sharing platform, allowing users to search for and watch videos in real-time. Leveraging JavaScript's power, I implemented a dynamic search feature that fetches and displays relevant video results as users type their queries. 
+                    <br>
+                    <br>
+                    The YouTube clone showcases my proficiency in front-end development and my ability to create functional and visually engaging web applications.Throughout the development process, I strived to maintain code efficiency and modularity. 
+                </p>
+                    <img src="images/p2.png" alt="">
+                </div>
+                <div class="wrapper-for-e">
+                    <img src="images/p3.png" alt="">
+                    <p>
+                        
+                        <em><a href="https://paulboncales.github.io/Restaurant_Static/" target="_blank">Restaurant Design</a></em> I take great pride in presenting my restaurant website design, meticulously crafted using a seamless combination of JavaScript, CSS, and HTML. This captivating online platform showcases the culinary delights of the restaurant, enticing visitors with an immersive and visually engaging experience. 
+                        <br>
+                        <br>
+                        Through thoughtful implementation of CSS, the restaurant website exudes a harmonious blend of aesthetics and functionality. The design boasts a visually appealing layout, incorporating a pleasing color scheme and captivating imagery that entices visitors to explore the site further. 
+                    </p>
+                </div>
+                <div class="header-for-e">
+                    <h2>IT Support</h2>
+                    <p>Cable Management | Assembling | Disassembling</p>
+                </div>
+                <div class="wrapper-for-e">
+                    <p>
+                        
+                        During my OJT at Splace, I also had the opportunity to work closely with the network team to understand the importance of proper cable management in ensuring seamless data transmission and network stability. I assisted in setting up data centers and server rooms, where the meticulous arrangement of cables played a crucial role in preventing signal interference and reducing the risk of accidents.
+                        <br>
+                        <br>
+                        I became well-versed in identifying and dealing with cable-related issues like cable fraying, kinks, and disconnections. This experience allowed me to develop troubleshooting skills, enabling me to diagnose and resolve cable problems swiftly, which contributed to the overall efficiency of the IT operations.
+                    </p>
+                    <img src="images/CM1.jpg" alt="">
+                </div>
+                <div class="wrapper-for-e">
+                    <img src="images/ca (1).jfif" alt="">
+                    <p>
+                        During my OJT at Splace, I gained practical experience in computer assembling and disassembling. I learned how to build and dismantle computers, including desktops and laptops, while adhering to safety protocols.
+                        This hands-on experience enhanced my understanding of computer components, their functions, and proper installation techniques. I also developed skills in troubleshooting and diagnostic tools.
+                        <br>
+                        <br>
+                        My OJT at Splace provided me with valuable knowledge and skills in computer hardware.
+                        Moreover, I had the chance to interact with end-users, addressing their technical inquiries and resolving hardware-related problems. This experience honed my communication and problem-solving skills, as I strived to provide prompt and effective solutions to meet the users' needs.
+                      
+                    </p>
+            
+                   
+                </div>
+            </div>
+  
+</section>
+<section id="stack">
+    <div class="header-stack">
+        <h1>MY TECH STACKS</h1>
+        <p>List of technologies that Im working with.</p>
+    </div>
+  
+    <div class="container-wrap">
+        
+        <div class="stack-wrapper">
+            <img src="images/htmllogo.webp" alt="">
+            <h3>HTML5</h3>
+            <p>Structure | Layout</p>
+        </div>
+        <div class="stack-wrapper">
+            <img src="images/css.webp" alt="">
+            <h3>CSS3</h3>
+            <p>Styling</p>
+        </div>
+        <div class="stack-wrapper">
+            <img src="images/js.png" alt="">
+            <h3>JavaScript</h3>
+            <p>Functions</p>
+        </div>
+        <div class="stack-wrapper">
+            <img style="border-radius: 50%" src="images/react-logo.jpg" alt="">
+            <h3>React JS</h3>
+            <p>JavaScript library</p>
+        </div>
+        <div class="stack-wrapper">
+            <img src="images/vs.webp" alt="">
+            <h3>Visual Studio Code</h3>
+            <p>Code Editor</p>
+        </div>
+        <div class="stack-wrapper">
+            <img src="images/11.png" alt="">
+            <h3>Github</h3>
+            <p>Version control </p>
+        </div>
+    </div>
+
+</section>
+<section id="contact">
+        <div class="header">
+            <h2>CONTACT ME</h2>
+            <p>Feel free to reach out anytime!</p>
+            <p class="mail">paulboncales1@gmail.com</p>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <p>Name</p>
+            <input type="text" name="to_name" placeholder="Name" id="name" required>
+            <p>Email</p>
+            <input type="text" name="to_name" placeholder="Email" id="email" required>
+            <p>Subject</p>
+            <input type="text" name="to_name" placeholder="Subject" id="subject" required>
+            <p>Message</p>
+            <textarea name="message" placeholder="Message" rows="5" id="message" required></textarea>
+            <button id="btn" type="submit" onclick="sendEmail()" disabled>Submit</button>
+        </div>
+    
+   
+
+</section>
+<footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2023 Copyright Paul Boncales | All rights reserved.</p>
+      <ul class="social-media">
+        <li><a href="https://www.facebook.com/boncales.paulii" target="_blank"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="https://twitter.com/paul_boncales" target="_blank"><i class="bi bi-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/paulinginlove_1/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.4/vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+<script src="app.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
